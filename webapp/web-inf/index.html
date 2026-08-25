@@ -1,0 +1,403 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MUSSE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- POP UP -->
+    <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="background-color: rgba(50, 50, 50, 0.7); border: none; box-shadow: none;">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color: white; font-family: 'IBMPlexMono', sans-serif;" id="emailModalLabel">10% REGISTRANDOTE CON TU EMAIL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="emailForm">
+                        <div class="mb-3">
+                            <!-- <label for="emailInput" class="form-label">Mail:</label> -->
+                            <input type="email" class="form-control" id="emailInput" 
+                            style="background-color: rgba(255, 255, 255, 0.7); border: none; box-shadow: none;"
+                            placeholder="musse@helados_proteicos.com" required>
+                        </div>
+                    </form>
+                    <div id="mensajeExito" style="display: none; text-align: center; color: white; font-family: 'IBMPlexMono', sans-serif; padding: 20px 0">
+                        <p style="font-size: 1.1rem; margin-bottom: 0;">¡LISTO! Revisá tu mail para confirmar</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button> -->
+                    <button type="submit" form="emailForm" class="btn btn-primary" style="background-color: rgb(203, 241, 98); border: none;color: rgb(29, 29, 29);
+                     font-family: 'IBMPlexMono'">ENVIAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class ="container-fluid p-0">
+        <img id="crema" src="../media/img/crema.jpg" class="crema">
+        <div class="row align-items-start">
+            <img id="logoB" src="../media/img/MUSSE__LOGO_BLANCO.png" class="logoB col-6">
+            <h2 class=fullsugar col-6>
+                FULL PROTE <br>
+                NO SUGAR. <br>
+                HELADO DE <br>
+                VERDAD. 
+        </div>
+            <h2 class="scroll-indicator">
+            SCROLL
+            <span>↓</span>
+            </h2>  
+    </div>
+    <section class="frame-section">
+
+        <div class="frame-sticky">
+            <img id="img"
+                 src="../media/frames/frame_000.jpg"
+                 alt="video">
+        </div>
+
+    </section>
+
+    <div class="txt_Izquierda">
+        <!-- <h1> QUIENES SOMOS </h1> -->
+        <p class="txt_Izquierda_h2">
+            SOMOS MUSSE, UNA MARCA DE HELADOS PROTEICOS<br>
+            QUE BUSCA COMBINAR SABOR Y BIENESTAR.<br>
+            SIN AZÚCAR. SIN COLORANTES. SIN CONSERVANTES.<br>
+            APORTAN HASTA 60 GRAMOS DE PROTEÍNA,<br>
+            CON INGREDIENTES CLAROS Y SELECCIONADOS.<br>
+            <!-- HELADOS AL FIN ¿NO? -->
+        </p>
+    </div>
+
+    <div class="txt_Derecha">
+        <!-- <h1> COMO COMPRAR </h1> -->
+        <p class="txt_Derecha_h2">
+            DOS PRESENTACIONES PARA UNA MISMA EXPERIENCIA.<br>
+            250 ML, UNA EXPRESIÓN ÍNTIMA Y PRECISA.<br>
+            500 ML, UNA EXPERIENCIA AMPLIA.<br>
+            LA PROPORCIÓN CAMBIA; EL CARÁCTER PERMANECE.<br>
+            <!-- MISMA RECETA, DISTINTA DIMENSIÓN. -->
+        </p>
+    </div>
+
+    <div class="txt_Izquierda2">
+        <!-- <h1> DOS TAMANOS MISMO CRITERIO </h1> -->
+        <p class="txt_Izquierda2_h2">
+            ¿COMO COMPRAR? SIMPLE,<br>
+            NOS ESCRIBÍS POR MENSAJE DIRECTO DE INSTAGRAM <br>
+            O A NUESTRO WHATSAPP<br>
+        </p>
+    </div>
+
+    <div class="txt_Derecha2">
+        <p class="txt_Derecha2_h2">
+            ENVÍOS LOS SÁBADOS, COSTO $90.<br>
+            PICK UP EN CORDÓN,<br>
+            CANELONES 2176 ESQUINA REQUENA
+        </p>
+    </div>
+
+   <!--  <div class="txt_Izquierda3">
+        <p class="txt_Izquierda3_h2">
+            CADA SABOR TIENE UN PERFIL PROPIO<br>
+            AROMA, ATAQUE, CUERPO Y TEXTURA<br>
+            INTENSIDAD, DULZOR Y PERSISTENCIA<br>
+            EL RETROGUSTO DEFINE EL FINAL.
+        </p>
+    </div> -->
+
+    <div class="Sabores">
+    <div class="sabores-overlay-text"></div>
+
+    <div class="row contenido-sabores">
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4">
+
+                <div class="col">
+                    <div class="sabor-card"
+                        data-color="#3D2203"
+                        data-precio1="$320"
+                        data-precio2="$690"
+                        data-prote1="30g"
+                        data-prote2="60g">
+                        <img src="../media/img/choco2.png"
+                            class="img-fluid sabor-img"
+                            alt="Chocolate">
+                        <h2 class="card-title">CHOCOLATE</h2>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="sabor-card"
+                        data-color="#BC7830"
+                        data-precio1="$320"
+                        data-precio2="$690"
+                        data-prote1="30g"
+                        data-prote2="60g">
+                        <img src="../media/img/DDL.png"
+                            class="img-fluid sabor-img"
+                            alt="DDL">
+                        <h2 class="card-title">DULCE DE LECHE</h2>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="sabor-card"
+                        data-color="#A32424"
+                        data-precio1="$320"
+                        data-precio2="$690"
+                        data-prote1="30g"
+                        data-prote2="60g">
+                        <img src="../media/img/FR.png"
+                            class="img-fluid sabor-img"
+                            alt="FR">
+                        <h2 class="card-title">FRUTOS ROJOS</h2>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="sabor-card"
+                        data-color="#fabf3f"
+                        data-precio1="$320"
+                        data-precio2="$690"
+                        data-prote1="30g"
+                        data-prote2="60g">
+                        <img src="../media/img/MM.png"
+                            class="img-fluid sabor-img"
+                            alt="MM">
+                        <h2 class="card-title">MANTEQUILLA DE MANÍ</h2>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="sabor-card"
+                        data-color="#507520"
+                        data-precio1="$350"
+                        data-precio2="$650"
+                        data-prote1="30g"
+                        data-prote2="60g">
+                        <img src="../media/img/PISTACHO.png"
+                            class="img-fluid sabor-img"
+                            alt="PISTACHO">
+                        <h2 class="card-title">PISTACHO</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <img src="../media/img/primera_pagina1.png" class="musse-G">
+</div>
+</div>
+
+    <a href="https://wa.me/59898804858" class="botonwpp" target="_blank" rel="noopener">
+        <img src="../media/img/wpp2.png" class="boton-normal" alt="WhatsApp">
+        <img src="../media/img/wppedido2.png" class="boton-hover" alt="Pedido">
+    </a>
+
+    <!-- <div class="scroll-space"></div> -->
+
+    <script>
+        const MAX_FRAMES = 91;
+
+        const img = document.querySelector("#img");
+        const frameSection = document.querySelector(".frame-section");
+
+         /* Cargamos todos los frames para evitar que aparezcan blancos mientras hacemos scroll.*/
+        const frames = [];
+        for (let i = 0; i < MAX_FRAMES; i++) {
+            const frame = String(i).padStart(3, "0");
+            const image = new Image();
+            image.src = `../media/frames/frame_${frame}.jpg`;
+            frames.push(image);
+        }
+         /*Cuando el usuario llega a la sección de frames, empezamos a calcular el progreso.*/
+        function updateFrame() {
+
+            const rect = frameSection.getBoundingClientRect();
+
+            const sectionHeight = frameSection.offsetHeight;
+
+            /*
+             * rect.top:
+             *  0      -> la sección está exactamente arriba
+             *  +100vh -> todavía no llegó
+             *  -100vh -> ya pasó
+             */
+
+            const scrollProgress =
+                -rect.top / (sectionHeight - window.innerHeight);
+
+             /* Limitamos el valor entre 0 y 1. */
+            const progress = Math.max(
+                0,
+                Math.min(1, scrollProgress)
+            );
+
+             /* Convertimos el progreso en frame.*/
+            const frameIndex = Math.floor(
+                progress * (MAX_FRAMES - 1)
+            );       
+             /** Mostramos el frame correspondiente.*/
+            if (frames[frameIndex] && frames[frameIndex].complete) {
+                img.src = frames[frameIndex].src;
+            }
+        }
+         /* Actualizamos solamente cuando se hace scroll.*/
+        window.addEventListener("scroll", updateFrame);
+         
+        /* También actualizamos al cargar. */
+        window.addEventListener("load", updateFrame);
+
+        /* Si cambia el tamaño de la ventana, recalculamos.*/
+        window.addEventListener("resize", updateFrame);
+
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const seccion = document.querySelector('.Sabores');
+        const overlay = document.querySelector('.sabores-overlay-text');
+        const tarjetas = document.querySelectorAll('.sabor-card');
+        const esMobile = () => window.innerWidth <= 768;
+
+        tarjetas.forEach(tarjeta => {
+            // Creamos el bloque de info interno (una sola vez), oculto por CSS hasta que se abra
+            const info = document.createElement('div');
+            info.className = 'sabor-card-info';
+            info.innerHTML = `
+                <p>250ml: <span>${tarjeta.dataset.precio1}</span> - PROTE: <span>${tarjeta.dataset.prote1}</span></p>
+                <p>500ml: <span>${tarjeta.dataset.precio2}</span> - PROTE: <span>${tarjeta.dataset.prote2}</span></p>
+            `;
+            tarjeta.appendChild(info);
+            tarjeta.style.setProperty('--card-color', tarjeta.dataset.color);
+
+            // --- Comportamiento DESKTOP: hover pinta toda la sección ---
+            tarjeta.addEventListener('mouseenter', () => {
+                if (esMobile()) return;
+
+                seccion.style.backgroundColor = tarjeta.dataset.color;
+                overlay.innerHTML = `
+                    <p>250ml: <span>${tarjeta.dataset.precio1}</span>  -  PROTE: <span>${tarjeta.dataset.prote1}</span></p>
+                    <p>500ml: <span>${tarjeta.dataset.precio2}</span>  -  PROTE: <span>${tarjeta.dataset.prote2}</span></p> 
+                `;
+                overlay.classList.add('active');
+            });
+
+            tarjeta.addEventListener('mouseleave', () => {
+                if (esMobile()) return;
+
+                seccion.style.backgroundColor = '';
+                overlay.classList.remove('active');
+            });
+
+            // --- Comportamiento MOBILE: click abre/cierra la tarjeta individual ---
+            tarjeta.addEventListener('click', () => {
+                if (!esMobile()) return;
+
+                tarjeta.classList.toggle('abierta');
+            });
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const emailModal = new bootstrap.Modal(document.getElementById('emailModal'));
+        emailModal.show();
+    });
+</script>
+
+                                <!-- PLANILLA DE MAILS -->
+<!-- <script>
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwYnUWAjlx35HTfsASTl6OppnHQqXR3POZV9kEv2lB65s6XrRscVy9KSuldqKF_LOc/exec"; // reemplazá con la URL que termina en /exec
+
+    document.getElementById('emailForm').addEventListener('submit', async (e) => {
+        e.preventDefault(); // evita que la página se recargue
+
+        const email = document.getElementById('emailInput').value;
+        const submitBtn = document.querySelector('button[form="emailForm"]');
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Enviando...';
+
+        try {
+            const response = await fetch(APPS_SCRIPT_URL, {
+                method: 'POST',
+                body: JSON.stringify({ email: email }),
+            });
+
+            const data = await response.json();
+
+            if (data.status === 'agregado') {
+                alert('¡Listo! Revisá tu mail para confirmar y activar tu 10% de descuento.');
+                bootstrap.Modal.getInstance(document.getElementById('emailModal')).hide();
+            } else if (data.status === 'existente') {
+                alert('Ese mail ya está registrado.');
+            } else if (data.status === 'invalido') {
+                alert('El mail ingresado no es válido.');
+            }
+        } catch (error) {
+            alert('Hubo un error, intentá de nuevo más tarde.');
+            console.error(error);
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Enviar';
+        }
+    });
+</script> -->
+<script>
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwYnUWAjlx35HTfsASTl6OppnHQqXR3POZV9kEv2lB65s6XrRscVy9KSuldqKF_LOc/exec"; // reemplazá con la URL que termina en /exec"; // asegurate que sea la tuya
+
+    document.getElementById('emailForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const emailInput = document.getElementById('emailInput');
+        const email = emailInput.value;
+        const submitBtn = document.querySelector('button[form="emailForm"]');
+
+        emailInput.classList.remove('is-invalid');
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Enviando...';
+
+        try {
+            const response = await fetch(APPS_SCRIPT_URL, {
+                method: 'POST',
+                body: JSON.stringify({ email: email }),
+            });
+
+            const data = await response.json();
+
+            if (data.status === 'agregado') {
+                document.getElementById('emailForm').style.display = 'none';
+                document.querySelector('.modal-footer').style.display = 'none';
+                document.getElementById('mensajeExito').style.display = 'block';
+
+                setTimeout(() => {
+                    bootstrap.Modal.getInstance(document.getElementById('emailModal')).hide();
+                }, 2500);
+            } else if (data.status === 'existente') {
+                bootstrap.Modal.getInstance(document.getElementById('emailModal')).hide();
+            } else if (data.status === 'invalido') {
+                emailInput.classList.add('is-invalid');
+            }
+        } catch (error) {
+            console.error(error);
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Enviar';
+        }
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

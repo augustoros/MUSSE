@@ -1,0 +1,655 @@
+{
+  "video_info": {
+    "original_frames": 46,
+    "total_frames": 46,
+    "fps": 30.0,
+    "width": 2560,
+    "height": 1440,
+    "duration": 1.5333333333333334
+  },
+  "extraction_info": {
+    "frames_generated": 91,
+    "target_frames": 100,
+    "method": "interpolation",
+    "frames_per_segment": 2.22
+  },
+  "frames": [
+    {
+      "index": 0,
+      "segment": 0,
+      "interpolation": 0,
+      "timestamp": 0.0,
+      "filename": "frame_000.jpg"
+    },
+    {
+      "index": 1,
+      "segment": 0,
+      "interpolation": 1,
+      "timestamp": 0.015,
+      "filename": "frame_001.jpg"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "interpolation": 0,
+      "timestamp": 0.031,
+      "filename": "frame_002.jpg"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "interpolation": 1,
+      "timestamp": 0.046,
+      "filename": "frame_003.jpg"
+    },
+    {
+      "index": 4,
+      "segment": 2,
+      "interpolation": 0,
+      "timestamp": 0.061,
+      "filename": "frame_004.jpg"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "interpolation": 1,
+      "timestamp": 0.077,
+      "filename": "frame_005.jpg"
+    },
+    {
+      "index": 6,
+      "segment": 3,
+      "interpolation": 0,
+      "timestamp": 0.092,
+      "filename": "frame_006.jpg"
+    },
+    {
+      "index": 7,
+      "segment": 3,
+      "interpolation": 1,
+      "timestamp": 0.107,
+      "filename": "frame_007.jpg"
+    },
+    {
+      "index": 8,
+      "segment": 4,
+      "interpolation": 0,
+      "timestamp": 0.123,
+      "filename": "frame_008.jpg"
+    },
+    {
+      "index": 9,
+      "segment": 4,
+      "interpolation": 1,
+      "timestamp": 0.138,
+      "filename": "frame_009.jpg"
+    },
+    {
+      "index": 10,
+      "segment": 5,
+      "interpolation": 0,
+      "timestamp": 0.153,
+      "filename": "frame_010.jpg"
+    },
+    {
+      "index": 11,
+      "segment": 5,
+      "interpolation": 1,
+      "timestamp": 0.169,
+      "filename": "frame_011.jpg"
+    },
+    {
+      "index": 12,
+      "segment": 6,
+      "interpolation": 0,
+      "timestamp": 0.184,
+      "filename": "frame_012.jpg"
+    },
+    {
+      "index": 13,
+      "segment": 6,
+      "interpolation": 1,
+      "timestamp": 0.199,
+      "filename": "frame_013.jpg"
+    },
+    {
+      "index": 14,
+      "segment": 7,
+      "interpolation": 0,
+      "timestamp": 0.215,
+      "filename": "frame_014.jpg"
+    },
+    {
+      "index": 15,
+      "segment": 7,
+      "interpolation": 1,
+      "timestamp": 0.23,
+      "filename": "frame_015.jpg"
+    },
+    {
+      "index": 16,
+      "segment": 8,
+      "interpolation": 0,
+      "timestamp": 0.245,
+      "filename": "frame_016.jpg"
+    },
+    {
+      "index": 17,
+      "segment": 8,
+      "interpolation": 1,
+      "timestamp": 0.261,
+      "filename": "frame_017.jpg"
+    },
+    {
+      "index": 18,
+      "segment": 9,
+      "interpolation": 0,
+      "timestamp": 0.276,
+      "filename": "frame_018.jpg"
+    },
+    {
+      "index": 19,
+      "segment": 9,
+      "interpolation": 1,
+      "timestamp": 0.291,
+      "filename": "frame_019.jpg"
+    },
+    {
+      "index": 20,
+      "segment": 10,
+      "interpolation": 0,
+      "timestamp": 0.307,
+      "filename": "frame_020.jpg"
+    },
+    {
+      "index": 21,
+      "segment": 10,
+      "interpolation": 1,
+      "timestamp": 0.322,
+      "filename": "frame_021.jpg"
+    },
+    {
+      "index": 22,
+      "segment": 11,
+      "interpolation": 0,
+      "timestamp": 0.337,
+      "filename": "frame_022.jpg"
+    },
+    {
+      "index": 23,
+      "segment": 11,
+      "interpolation": 1,
+      "timestamp": 0.353,
+      "filename": "frame_023.jpg"
+    },
+    {
+      "index": 24,
+      "segment": 12,
+      "interpolation": 0,
+      "timestamp": 0.368,
+      "filename": "frame_024.jpg"
+    },
+    {
+      "index": 25,
+      "segment": 12,
+      "interpolation": 1,
+      "timestamp": 0.383,
+      "filename": "frame_025.jpg"
+    },
+    {
+      "index": 26,
+      "segment": 13,
+      "interpolation": 0,
+      "timestamp": 0.399,
+      "filename": "frame_026.jpg"
+    },
+    {
+      "index": 27,
+      "segment": 13,
+      "interpolation": 1,
+      "timestamp": 0.414,
+      "filename": "frame_027.jpg"
+    },
+    {
+      "index": 28,
+      "segment": 14,
+      "interpolation": 0,
+      "timestamp": 0.429,
+      "filename": "frame_028.jpg"
+    },
+    {
+      "index": 29,
+      "segment": 14,
+      "interpolation": 1,
+      "timestamp": 0.445,
+      "filename": "frame_029.jpg"
+    },
+    {
+      "index": 30,
+      "segment": 15,
+      "interpolation": 0,
+      "timestamp": 0.46,
+      "filename": "frame_030.jpg"
+    },
+    {
+      "index": 31,
+      "segment": 15,
+      "interpolation": 1,
+      "timestamp": 0.475,
+      "filename": "frame_031.jpg"
+    },
+    {
+      "index": 32,
+      "segment": 16,
+      "interpolation": 0,
+      "timestamp": 0.491,
+      "filename": "frame_032.jpg"
+    },
+    {
+      "index": 33,
+      "segment": 16,
+      "interpolation": 1,
+      "timestamp": 0.506,
+      "filename": "frame_033.jpg"
+    },
+    {
+      "index": 34,
+      "segment": 17,
+      "interpolation": 0,
+      "timestamp": 0.521,
+      "filename": "frame_034.jpg"
+    },
+    {
+      "index": 35,
+      "segment": 17,
+      "interpolation": 1,
+      "timestamp": 0.537,
+      "filename": "frame_035.jpg"
+    },
+    {
+      "index": 36,
+      "segment": 18,
+      "interpolation": 0,
+      "timestamp": 0.552,
+      "filename": "frame_036.jpg"
+    },
+    {
+      "index": 37,
+      "segment": 18,
+      "interpolation": 1,
+      "timestamp": 0.567,
+      "filename": "frame_037.jpg"
+    },
+    {
+      "index": 38,
+      "segment": 19,
+      "interpolation": 0,
+      "timestamp": 0.583,
+      "filename": "frame_038.jpg"
+    },
+    {
+      "index": 39,
+      "segment": 19,
+      "interpolation": 1,
+      "timestamp": 0.598,
+      "filename": "frame_039.jpg"
+    },
+    {
+      "index": 40,
+      "segment": 20,
+      "interpolation": 0,
+      "timestamp": 0.613,
+      "filename": "frame_040.jpg"
+    },
+    {
+      "index": 41,
+      "segment": 20,
+      "interpolation": 1,
+      "timestamp": 0.629,
+      "filename": "frame_041.jpg"
+    },
+    {
+      "index": 42,
+      "segment": 21,
+      "interpolation": 0,
+      "timestamp": 0.644,
+      "filename": "frame_042.jpg"
+    },
+    {
+      "index": 43,
+      "segment": 21,
+      "interpolation": 1,
+      "timestamp": 0.659,
+      "filename": "frame_043.jpg"
+    },
+    {
+      "index": 44,
+      "segment": 22,
+      "interpolation": 0,
+      "timestamp": 0.675,
+      "filename": "frame_044.jpg"
+    },
+    {
+      "index": 45,
+      "segment": 22,
+      "interpolation": 1,
+      "timestamp": 0.69,
+      "filename": "frame_045.jpg"
+    },
+    {
+      "index": 46,
+      "segment": 23,
+      "interpolation": 0,
+      "timestamp": 0.705,
+      "filename": "frame_046.jpg"
+    },
+    {
+      "index": 47,
+      "segment": 23,
+      "interpolation": 1,
+      "timestamp": 0.721,
+      "filename": "frame_047.jpg"
+    },
+    {
+      "index": 48,
+      "segment": 24,
+      "interpolation": 0,
+      "timestamp": 0.736,
+      "filename": "frame_048.jpg"
+    },
+    {
+      "index": 49,
+      "segment": 24,
+      "interpolation": 1,
+      "timestamp": 0.751,
+      "filename": "frame_049.jpg"
+    },
+    {
+      "index": 50,
+      "segment": 25,
+      "interpolation": 0,
+      "timestamp": 0.767,
+      "filename": "frame_050.jpg"
+    },
+    {
+      "index": 51,
+      "segment": 25,
+      "interpolation": 1,
+      "timestamp": 0.782,
+      "filename": "frame_051.jpg"
+    },
+    {
+      "index": 52,
+      "segment": 26,
+      "interpolation": 0,
+      "timestamp": 0.797,
+      "filename": "frame_052.jpg"
+    },
+    {
+      "index": 53,
+      "segment": 26,
+      "interpolation": 1,
+      "timestamp": 0.813,
+      "filename": "frame_053.jpg"
+    },
+    {
+      "index": 54,
+      "segment": 27,
+      "interpolation": 0,
+      "timestamp": 0.828,
+      "filename": "frame_054.jpg"
+    },
+    {
+      "index": 55,
+      "segment": 27,
+      "interpolation": 1,
+      "timestamp": 0.843,
+      "filename": "frame_055.jpg"
+    },
+    {
+      "index": 56,
+      "segment": 28,
+      "interpolation": 0,
+      "timestamp": 0.859,
+      "filename": "frame_056.jpg"
+    },
+    {
+      "index": 57,
+      "segment": 28,
+      "interpolation": 1,
+      "timestamp": 0.874,
+      "filename": "frame_057.jpg"
+    },
+    {
+      "index": 58,
+      "segment": 29,
+      "interpolation": 0,
+      "timestamp": 0.889,
+      "filename": "frame_058.jpg"
+    },
+    {
+      "index": 59,
+      "segment": 29,
+      "interpolation": 1,
+      "timestamp": 0.905,
+      "filename": "frame_059.jpg"
+    },
+    {
+      "index": 60,
+      "segment": 30,
+      "interpolation": 0,
+      "timestamp": 0.92,
+      "filename": "frame_060.jpg"
+    },
+    {
+      "index": 61,
+      "segment": 30,
+      "interpolation": 1,
+      "timestamp": 0.935,
+      "filename": "frame_061.jpg"
+    },
+    {
+      "index": 62,
+      "segment": 31,
+      "interpolation": 0,
+      "timestamp": 0.951,
+      "filename": "frame_062.jpg"
+    },
+    {
+      "index": 63,
+      "segment": 31,
+      "interpolation": 1,
+      "timestamp": 0.966,
+      "filename": "frame_063.jpg"
+    },
+    {
+      "index": 64,
+      "segment": 32,
+      "interpolation": 0,
+      "timestamp": 0.981,
+      "filename": "frame_064.jpg"
+    },
+    {
+      "index": 65,
+      "segment": 32,
+      "interpolation": 1,
+      "timestamp": 0.997,
+      "filename": "frame_065.jpg"
+    },
+    {
+      "index": 66,
+      "segment": 33,
+      "interpolation": 0,
+      "timestamp": 1.012,
+      "filename": "frame_066.jpg"
+    },
+    {
+      "index": 67,
+      "segment": 33,
+      "interpolation": 1,
+      "timestamp": 1.027,
+      "filename": "frame_067.jpg"
+    },
+    {
+      "index": 68,
+      "segment": 34,
+      "interpolation": 0,
+      "timestamp": 1.043,
+      "filename": "frame_068.jpg"
+    },
+    {
+      "index": 69,
+      "segment": 34,
+      "interpolation": 1,
+      "timestamp": 1.058,
+      "filename": "frame_069.jpg"
+    },
+    {
+      "index": 70,
+      "segment": 35,
+      "interpolation": 0,
+      "timestamp": 1.073,
+      "filename": "frame_070.jpg"
+    },
+    {
+      "index": 71,
+      "segment": 35,
+      "interpolation": 1,
+      "timestamp": 1.089,
+      "filename": "frame_071.jpg"
+    },
+    {
+      "index": 72,
+      "segment": 36,
+      "interpolation": 0,
+      "timestamp": 1.104,
+      "filename": "frame_072.jpg"
+    },
+    {
+      "index": 73,
+      "segment": 36,
+      "interpolation": 1,
+      "timestamp": 1.119,
+      "filename": "frame_073.jpg"
+    },
+    {
+      "index": 74,
+      "segment": 37,
+      "interpolation": 0,
+      "timestamp": 1.135,
+      "filename": "frame_074.jpg"
+    },
+    {
+      "index": 75,
+      "segment": 37,
+      "interpolation": 1,
+      "timestamp": 1.15,
+      "filename": "frame_075.jpg"
+    },
+    {
+      "index": 76,
+      "segment": 38,
+      "interpolation": 0,
+      "timestamp": 1.165,
+      "filename": "frame_076.jpg"
+    },
+    {
+      "index": 77,
+      "segment": 38,
+      "interpolation": 1,
+      "timestamp": 1.181,
+      "filename": "frame_077.jpg"
+    },
+    {
+      "index": 78,
+      "segment": 39,
+      "interpolation": 0,
+      "timestamp": 1.196,
+      "filename": "frame_078.jpg"
+    },
+    {
+      "index": 79,
+      "segment": 39,
+      "interpolation": 1,
+      "timestamp": 1.211,
+      "filename": "frame_079.jpg"
+    },
+    {
+      "index": 80,
+      "segment": 40,
+      "interpolation": 0,
+      "timestamp": 1.227,
+      "filename": "frame_080.jpg"
+    },
+    {
+      "index": 81,
+      "segment": 40,
+      "interpolation": 1,
+      "timestamp": 1.242,
+      "filename": "frame_081.jpg"
+    },
+    {
+      "index": 82,
+      "segment": 41,
+      "interpolation": 0,
+      "timestamp": 1.257,
+      "filename": "frame_082.jpg"
+    },
+    {
+      "index": 83,
+      "segment": 41,
+      "interpolation": 1,
+      "timestamp": 1.273,
+      "filename": "frame_083.jpg"
+    },
+    {
+      "index": 84,
+      "segment": 42,
+      "interpolation": 0,
+      "timestamp": 1.288,
+      "filename": "frame_084.jpg"
+    },
+    {
+      "index": 85,
+      "segment": 42,
+      "interpolation": 1,
+      "timestamp": 1.303,
+      "filename": "frame_085.jpg"
+    },
+    {
+      "index": 86,
+      "segment": 43,
+      "interpolation": 0,
+      "timestamp": 1.319,
+      "filename": "frame_086.jpg"
+    },
+    {
+      "index": 87,
+      "segment": 43,
+      "interpolation": 1,
+      "timestamp": 1.334,
+      "filename": "frame_087.jpg"
+    },
+    {
+      "index": 88,
+      "segment": 44,
+      "interpolation": 0,
+      "timestamp": 1.349,
+      "filename": "frame_088.jpg"
+    },
+    {
+      "index": 89,
+      "segment": 44,
+      "interpolation": 1,
+      "timestamp": 1.365,
+      "filename": "frame_089.jpg"
+    },
+    {
+      "index": 90,
+      "segment": 45,
+      "interpolation": 0,
+      "timestamp": 1.533,
+      "filename": "frame_090.jpg"
+    }
+  ]
+}
