@@ -318,7 +318,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .logoB {
         width: 130px;
         top: 35px;
@@ -328,7 +328,7 @@ body {
         top: 170px;
         font-size: 32px;
     }
-}@media (max-width: 768px) {
+} */@media (max-width: 768px) {
     .botonwpp {
         bottom: 20px;
         right: 20px;
