@@ -304,7 +304,7 @@ body {
     position: absolute;
 }@media (max-width: 768px) {
     .logoB {
-        top: 80px;
+        top: 105px !important;
         left: 50%;
         right: auto;
         transform: translateX(-50%);
@@ -385,7 +385,7 @@ body {
         left: 6%;
         right: 6%;
         padding: 10px 0;
-        font-size: 20px;
+        font-size: 18px;
     }
 }.sabor-card-info {
     display: none;
