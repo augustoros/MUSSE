@@ -388,6 +388,7 @@ body {
 
     .sabor-card {
         position: relative;
+        margin-top: 20px;
         width: 100%;
         max-width: 280px;
         border-radius: 12px;
