@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="web-inf/css/style.css">
 </head>
 <body>
     <!-- POP UP -->
@@ -42,9 +42,9 @@
     </div>
 
     <div class ="container-fluid p-0">
-        <img id="crema" src="../media/img/crema.jpg" class="crema">
+        <img id="crema" src="media/img/crema.jpg" class="crema">
         <div class="row align-items-start">
-            <img id="logoB" src="../media/img/MUSSE__LOGO_BLANCO.png" class="logoB col-6">
+            <img id="logoB" src="media/img/MUSSE__LOGO_BLANCO.png" class="logoB col-6">
             <h2 class=fullsugar col-6>
                 FULL PROTE <br>
                 NO SUGAR. <br>
@@ -60,7 +60,7 @@
 
         <div class="frame-sticky">
             <img id="img"
-                 src="../media/frames/frame_000.jpg"
+                 src="media/frames/frame_000.jpg"
                  alt="video">
         </div>
 
@@ -94,7 +94,7 @@
         <p class="txt_Izquierda2_h2">
             ¿COMO COMPRAR? SIMPLE,<br>
             NOS ESCRIBÍS POR MENSAJE DIRECTO DE INSTAGRAM <br>
-            O A NUESTRO WHATSAPP<br>
+            O A NUESTRO WHATSAPP.<br>
         </p>
     </div>
 
@@ -102,7 +102,7 @@
         <p class="txt_Derecha2_h2">
             ENVÍOS LOS SÁBADOS, COSTO $90.<br>
             PICK UP EN CORDÓN,<br>
-            CANELONES 2176 ESQUINA REQUENA
+            CANELONES 2176 ESQUINA REQUENA.
         </p>
     </div>
 
@@ -112,6 +112,16 @@
             AROMA, ATAQUE, CUERPO Y TEXTURA<br>
             INTENSIDAD, DULZOR Y PERSISTENCIA<br>
             EL RETROGUSTO DEFINE EL FINAL.
+        </p>
+    </div> -->
+
+    <!-- <div class="txt_Derecha_mobile">
+        <p class="txt_Derecha_h2">
+            DOS PRESENTACIONES PARA UNA MISMA EXPERIENCIA.<br>
+            250 ML, UNA EXPRESIÓN ÍNTIMA Y PRECISA.<br>
+            500 ML, UNA EXPERIENCIA AMPLIA.<br>
+            LA PROPORCIÓN CAMBIA; <br>
+            EL CARÁCTER PERMANECE.<br>
         </p>
     </div> -->
 
@@ -130,7 +140,7 @@
                         data-precio2="$590"
                         data-prote1="30g"
                         data-prote2="60g">
-                        <img src="../media/img/choco2.png"
+                        <img src="media/img/choco2.png"
                             class="img-fluid sabor-img"
                             alt="Chocolate">
                         <h2 class="card-title">CHOCOLATE</h2>
@@ -144,7 +154,7 @@
                         data-precio2="$590"
                         data-prote1="30g"
                         data-prote2="60g">
-                        <img src="../media/img/DDL.png"
+                        <img src="media/img/DDL.png"
                             class="img-fluid sabor-img"
                             alt="DDL">
                         <h2 class="card-title">DULCE DE LECHE</h2>
@@ -158,7 +168,7 @@
                         data-precio2="$590"
                         data-prote1="30g"
                         data-prote2="60g">
-                        <img src="../media/img/FR.png"
+                        <img src="media/img/FR.png"
                             class="img-fluid sabor-img"
                             alt="FR">
                         <h2 class="card-title">FRUTOS ROJOS</h2>
@@ -172,7 +182,7 @@
                         data-precio2="$590"
                         data-prote1="30g"
                         data-prote2="60g">
-                        <img src="../media/img/MM.png"
+                        <img src="media/img/MM.png"
                             class="img-fluid sabor-img"
                             alt="MM">
                         <h2 class="card-title">MANTEQUILLA DE MANÍ</h2>
@@ -186,7 +196,7 @@
                         data-precio2="$650"
                         data-prote1="30g"
                         data-prote2="60g">
-                        <img src="../media/img/Pistacho.png"
+                        <img src="media/img/Pistacho.png"
                             class="img-fluid sabor-img"
                             alt="PISTACHO">
                         <h2 class="card-title">PISTACHO</h2>
@@ -196,13 +206,13 @@
             </div>
         </div>
     </div>
-    <img src="../media/img/primera_pagina1.png" class="musse-G">
+    <img src="media/img/primera_pagina1.png" class="musse-G">
 </div>
 </div>
 
     <a href="https://wa.me/59898804858" class="botonwpp" target="_blank" rel="noopener">
-        <img src="../media/img/wpp2.png" class="boton-normal" alt="WhatsApp">
-        <img src="../media/img/wppedido2.png" class="boton-hover" alt="Pedido">
+        <img src="media/img/wpp2.png" class="boton-normal" alt="WhatsApp">
+        <img src="media/img/wppedido2.png" class="boton-hover" alt="Pedido">
     </a>
 
     <!-- <div class="scroll-space"></div> -->
@@ -218,7 +228,7 @@
         for (let i = 0; i < MAX_FRAMES; i++) {
             const frame = String(i).padStart(3, "0");
             const image = new Image();
-            image.src = `../media/frames/frame_${frame}.jpg`;
+            image.src = `media/frames/frame_${frame}.jpg`;
             frames.push(image);
         }
          /*Cuando el usuario llega a la sección de frames, empezamos a calcular el progreso.*/

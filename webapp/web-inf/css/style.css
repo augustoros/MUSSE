@@ -357,7 +357,7 @@ body {
         width: auto;
         height: auto;
         padding: 15px 0;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.3;
         letter-spacing: 0;
     }
@@ -375,7 +375,7 @@ body {
         left: 6%;
         right: 6%;
         padding: 10px 0;
-        font-size: 18px;
+        font-size: 18px;;
     }
 }.sabor-card-info {
     display: none;
@@ -443,4 +443,31 @@ body {
         min-height: auto;
         overflow: hidden;
     }
+}/* .txt_Derecha_mobile {
+    display: none;
 }
+
+@media (max-width: 768px) {
+    .txt_Derecha {
+        display: none;
+    }
+
+    .txt_Derecha_mobile {
+        display: block;
+        position: absolute;
+        top: 270vh;
+        top: 270dvh;
+        right: 8%;
+        left: auto;
+        width: auto;
+        height: auto;
+        padding: 15px 0;
+        z-index: 10;
+        color: white;
+        text-align: right;
+        font-family: "IBMPlexMono";
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: 0;
+    }
+} */
