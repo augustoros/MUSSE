@@ -26,26 +26,31 @@ body {
     margin: 0;
     padding: 0;
 }.container-fluid{
-    position : relative;
-}.crema {
+    background-image: url("../../media/img/crema.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}/* .crema {
     width: 100%;
     height: 100vh;
     object-fit: cover;
     display: block;
     position: relative;
-}.logoB{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-
-    width: 300px;
+} */.logoB{
+    /* position: absolute; */
+    /* top: 100px;
+    left: 100px; */
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 290px;
     height: auto;
-
-    z-index: 2;
 }.fullsugar{
-    position:absolute;
-    top: 85px;
-    right: 100px;
+    /* position:absolute; */
+    /* top: 85px;
+    right: 100px; */
+    margin-top: 85px;
+    margin-right: 100px;
     background: transparent;
     text-align: right;
     /* color: rgb(29, 38, 112); */
@@ -54,11 +59,9 @@ body {
     /* font-family:"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"; */
     font-family:"PCMerchis";
     /* font-weight: 700; */
-    font-size: 107px;
+    font-size: clamp(60px, 8vw, 107px);
     letter-spacing: 3px;
     /* -webkit-text-stroke: 0.05px rgb(14, 20, 59); */
-
-    z-index: 2;
 }.scroll-indicator {
     position: absolute;
     bottom: 30px;
@@ -220,14 +223,18 @@ body {
     min-height: 100vh;
     overflow: hidden;
     transition: background-color 0.35s ease;
+    background-image: url("../../media/img/primera_pagina2.png");
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.musse-G {
+/* .musse-G {
     position: absolute;
     inset: 0;
     object-fit: cover;
     z-index: 0;
-}
+} */
 
 .contenido-sabores {
     position: relative;
@@ -294,18 +301,22 @@ body {
     position: absolute;
 }@media (max-width: 768px) {
     .logoB {
-        top: 105px !important;
+        /* top: 105px !important;
         left: 50%;
         right: auto;
-        transform: translateX(-50%);
-        width: 260px;
+        transform: translateX(-50%); */
+
+        display: block;
+        margin: 105px auto 0 auto;
+        width: 240px;
     }
 
     .fullsugar {
-        top: 250px;
+        /* top: 250px;
         left: 50%;
         right: auto;
-        transform: translateX(-50%);
+        transform: translateX(-50%); */
+        margin: 60px auto 0 auto;
         width: 90%;
         text-align: center;
         font-size: 55px;
@@ -430,7 +441,7 @@ body {
         pointer-events: auto;
     }
 }@media (max-width: 768px) {
-    .musse-G {
+    /* .musse-G {
         position: static;
         width: 100%;
         height: auto;
@@ -438,11 +449,14 @@ body {
         display: block;
         margin-top: -35px;
         margin-bottom: -40px;
-    }
+    } */
 
     .Sabores {
         min-height: auto;
         overflow: hidden;
+        background-size: contain;
+        background-position: center bottom;
+        padding-bottom: 100px;
     }
 }/* .txt_Derecha_mobile {
     display: none;
