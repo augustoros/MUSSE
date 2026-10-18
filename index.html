@@ -69,7 +69,7 @@
 
     </section>
 
-    <div class="txt_Izquierda">
+    <div class="txt_Izquierda scroll-text">
         <!-- <h1> QUIENES SOMOS </h1> -->
         <p class="txt_Izquierda_h2">
             SOMOS MUSSE, UNA MARCA DE HELADOS PROTEICOS<br>
@@ -81,7 +81,7 @@
         </p>
     </div>
 
-    <div class="txt_Derecha">
+    <div class="txt_Derecha scroll-text">
         <!-- <h1> COMO COMPRAR </h1> -->
         <p class="txt_Derecha_h2">
             DOS PRESENTACIONES PARA UNA MISMA EXPERIENCIA.<br>
@@ -92,7 +92,7 @@
         </p>
     </div>
 
-    <div class="txt_Izquierda2">
+    <div class="txt_Izquierda2 scroll-text">
         <!-- <h1> DOS TAMANOS MISMO CRITERIO </h1> -->
         <p class="txt_Izquierda2_h2">
             ¿COMO COMPRAR? SIMPLE,<br>
@@ -101,7 +101,7 @@
         </p>
     </div>
 
-    <div class="txt_Derecha2">
+    <div class="txt_Derecha2 scroll-text">
         <p class="txt_Derecha2_h2">
             ENVÍOS LOS SÁBADOS, COSTO $90.<br>
             PICK UP EN CORDÓN,<br>
@@ -221,6 +221,7 @@
 
         const img = document.querySelector("#img");
         const frameSection = document.querySelector(".frame-section");
+        const scrollTexts = document.querySelectorAll(".scroll-text");
 
          /* Cargamos todos los frames para evitar que aparezcan blancos mientras hacemos scroll.*/
         const frames = [];
@@ -261,6 +262,32 @@
             if (frames[frameIndex] && frames[frameIndex].complete) {
                 img.src = frames[frameIndex].src;
             }
+
+            updateScrollText();
+        }
+
+        function updateScrollText() {
+            const viewportHeight = window.innerHeight;
+
+            scrollTexts.forEach((text) => {
+                const rect = text.getBoundingClientRect();
+                const textCenter = rect.top + rect.height / 2;
+
+                /*
+                 * Cada texto aparece al entrar por la parte inferior,
+                 * permanece visible en el centro y se desvanece al salir.
+                 */
+                const fadeIn = (textCenter - viewportHeight * 0.55) /
+                    (viewportHeight * 0.55);
+                const fadeOut = (viewportHeight * 0.47 - textCenter) /
+                    (viewportHeight * 0.4);
+                const opacity = Math.max(
+                    0,
+                    Math.min(1, 1 - Math.max(fadeIn, fadeOut))
+                );
+
+                text.style.opacity = opacity;
+            });
         }
          /* Actualizamos solamente cuando se hace scroll.*/
         window.addEventListener("scroll", updateFrame);
